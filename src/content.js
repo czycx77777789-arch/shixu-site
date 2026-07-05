@@ -1,6 +1,6 @@
 export const SITE_CONFIG = {
   productName: '食序',
-  wechatId: 'WECHAT_PLACEHOLDER',
+  wechatId: '__cCyYxX_',
   heroImage: '/images/hero-restaurant.jpg',
   introSeenStorageKey: 'shixu-intro-seen-v1',
   hero: {
