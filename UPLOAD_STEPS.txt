@@ -1,0 +1,29 @@
+1. Open your repository page:
+   https://github.com/czycx77777789-arch/shixu-site
+
+2. Click "uploading an existing file".
+
+3. Drag everything inside this folder into GitHub EXCEPT this text file if you want.
+
+4. Commit the upload.
+
+5. After upload, create the workflow file:
+   - Click "Add file" -> "Create new file"
+   - In the filename box, enter:
+     .github/workflows/deploy.yml
+   - Open DEPLOY_WORKFLOW_FOR_PAGES.yml on your computer
+   - Copy all of its contents into the GitHub editor
+   - Commit changes
+
+6. Go to:
+   Settings -> Pages
+
+7. Under "Build and deployment", set Source to:
+   GitHub Actions
+
+8. Wait for Actions to finish. Your site URL will be:
+   https://czycx77777789-arch.github.io/shixu-site/
+
+Note:
+- You do not need to upload .git, node_modules, dist, outputs, .codex, .agents, or .playwright-mcp.
+- .github is intentionally replaced here by a visible file because Windows/browser selection can hide dot-folders.
